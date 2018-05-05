@@ -1,0 +1,98 @@
+body {
+	background-color: #fff;
+}
+h2 {
+	font-weight: 400;
+	box-sizing: border-box;
+}
+header {
+	position: fixed;
+	z-index: 99;
+}
+header .icon-left {
+	position: absolute;
+	top: 13px;
+	left: 11px;
+	display: inline-block;
+	width: 10px;
+	height: 18px;
+	background: url(../images/icon/p_left.png) center center no-repeat;
+	background-size: 10px 18px;
+}
+.newPost {
+	padding-top: 13px;
+}
+
+.newPost .list {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px 10px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.newPost .list h4 {
+	flex: .8;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.newPost .list input {
+	flex-grow: 1;
+	display: inline-block;
+	padding: 0;
+	font-size: 14px;
+}
+.newPost .list textarea {
+	flex-grow: 1;
+	display: inline-block;
+	padding: 0;
+	font-size: 14px;
+}
+
+.newPost .list .icon-bottom {
+	position: absolute;
+	right: 10px;
+	display: inline-block;
+	width: 31px;
+	height: 31px;
+	background: url(../images/icon/p_bottom.png) center center no-repeat;
+	background-size: 17px 10px;
+}
+
+.newPost .list .icon-add {
+	position: absolute;
+	right: 10px;
+	display: inline-block;
+	width: 31px;
+	height: 31px;
+	background: url(../images/icon/defaultAdd.png) center center no-repeat;
+	background-size: 14px 14px;
+}
+
+.saveOrSublime {
+	position: absolute;
+	bottom: 27px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.saveOrSublime .save p, .saveOrSublime .sublime p{
+	width: 131px;
+	height: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #00AEFF;
+	text-align: center;
+	line-height: 30px;
+	background-color: #00AEFF;
+	color: #fff;
+}
+
+.saveOrSublime .sublime p{
+	background-color: #F73C43;
+	box-shadow: 0 0 10px #F73C43;
+}

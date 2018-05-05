@@ -1,0 +1,116 @@
+html, body {
+	height: 100%;
+}
+body {
+	padding: 0;
+}
+h2 {
+	font-weight: 400;
+	box-sizing: border-box;
+	border-bottom: 1px solid #F7F6FA;
+}
+header {
+	position: fixed;
+	z-index: 99;
+}
+header .icon-left {
+	position: absolute;
+	top: 13px;
+	left: 11px;
+	display: inline-block;
+	width: 10px;
+	height: 18px;
+	background: url(../images/icon/p_left.png) center center no-repeat;
+	background-size: 10px 18px;
+}
+
+.sortSelect {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	margin-top: 45px;
+	box-sizing: border-box;
+}
+
+.getMessage {
+	border-top: 4px solid #F3F2F7;
+}
+
+.sortSelect {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px 23px 15px 23px;
+	font-size: 12px;
+	background-color: #fff;
+}
+.sortSelect .select h4 {
+	display: inline;
+	font-weight: 400;
+}
+.sortSelect .select i {
+	display: inline-block;
+	width: 15px;
+	height: 10px;
+	padding-left: 4px;
+	background: url(../images/icon/p_lightBottom.png) center center no-repeat;
+	background-size: 10px 6px !important;
+}
+.sortSelect  .select .icon-select2 {
+	background: url(../images/icon/p_Bottom.png) center center no-repeat;
+}
+.sortSelect .select .icon-select3 {
+	background: url(../images/icon/p_Bottom.png) center center no-repeat;
+}
+
+.getMessage {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 100%;
+	padding-top: 35px;
+	background-color: #fff;
+}
+
+.getMessage .message {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 23px;
+	padding-bottom: 15px;
+}
+.getMessage .messageHead {
+	padding-right: 11px;
+}
+.getMessage .messageHead i {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: #fff url(../images/icon/Photo.png) center center no-repeat;
+	background-size: 12px 14px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px #eee;
+}
+.getMessage .messageMain {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #F5F5F5;
+}
+.getMessage .message .news {
+
+}
+.getMessage .message .name {
+	font-size: 12px;
+	font-weight: 400;
+
+}
+.getMessage .message .new {
+	font-size: 12px;
+	color: #B2B2B2;
+}
+.getMessage .message .date {
+	padding-right: 22px;
+	font-size: 12px;
+	color: #B2B2B2;
+}

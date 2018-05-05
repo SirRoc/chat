@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    background: #F3F2F7;
+}
+.myMessage {
+	display: block;
+	width: 100%;
+	background: #F3F2F7 url(../images/contactBackground.png) center top no-repeat;
+	background-size: 100% 160px;
+}
+
+.myMessage .contact .left {
+	display: inline-block;
+	padding-top: 13px;
+    padding-left: 13px;
+	width: 13px;
+	height: 15px;
+}
+
+.myMessage .contact .left img {
+	display: inline-block;
+	height: 100%;
+}
+
+.myMessage .contactPerson {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-top: 99px;
+}
+
+.myMessage .contactPerson .person-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 10px 0 0 10px;
+	background: #F73C43 url(../images/person.png) center center no-repeat;
+	background-size: 21px 23px;
+} 
+
+.myMessage .contactPerson .person-right {
+	width: 100%;
+    height: 60px;
+    border-radius: 0 10px 10px 0;
+    background: #fff;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+.myMessage .contactPerson .person-right p:nth-of-type(1) {
+	padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 18px;
+}
+.myMessage .contactPerson .person-right p:nth-of-type(2) {
+	font-size: 12px;
+}
+
+.companyInformation {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-left: 22px;
+	margin-top: 5px;
+	background: #fff;
+}
+
+.companyInformation .company {
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 21px;
+	padding-bottom: 18px;
+}
+
+.companyInformation .contactMethod {
+	font-size: 12px;
+}
+
+.companyInformation .contactMethod .message {
+	border-bottom: 1px solid #F5F5F5;
+	padding-bottom: 6px;
+}
+
+.companyInformation .contactMethod .name {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #DBDBDB;
+}
+
+.PersonInformation {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-left: 22px;
+	margin-top: 5px;
+	background: #fff;
+}
+
+.PersonInformation .company {
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 21px;
+	padding-bottom: 18px;
+}
+
+.PersonInformation .contactMethod {
+	font-size: 12px;
+}
+
+.PersonInformation .contactMethod .message {
+	border-bottom: 1px solid #F5F5F5;
+	padding-bottom: 6px;
+}
+
+.PersonInformation .contactMethod .name {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #DBDBDB;
+}
+
+.send {
+	margin-top: 15px;
+	width: 100%;
+	height: 42px;
+	background: #fff;
+}
+
+.send > div {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 19px;
+	width: 130px;
+	height: 30px;
+	border-radius: 20px;
+}
+
+.send .message {
+	left: 45px;
+	box-shadow: 0 0 10px #ddd;
+	background-color: #FFF;
+	color: #00AEFF;
+}
+.send .phone {
+	right: 45px;
+	background-color: #00AEFF;
+	color: #FFF;
+	box-shadow: 0 0 10px #00AEFF;
+}

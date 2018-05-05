@@ -1,0 +1,224 @@
+body {
+	background: #F3F2F7;
+	padding: 44px 0;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+}
+header .left {
+	padding-top: 0;
+	padding-left: 10px;
+}
+header .left i {
+	display: inline-block;
+	width: 22px;
+	height: 44px;
+	background: url(../images/icon/p_left.png) center center no-repeat !important;
+	background-size: 8px 18px !important;
+	background-position: 0 0;
+}
+
+header .post {
+	padding-top: 15px;
+	padding-right: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #F23B42;
+}
+
+.record {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+.record > div {
+	border-bottom: 1px solid #F5F5F5;
+}
+.record .content {
+	position: relative;
+	display: flex;
+}
+
+.record .content textarea {
+	border: 0;
+	padding-top: 14px;
+	padding-left: 21px;
+	background: #F5F5F5;
+}
+.record .content .icon-file {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	background: url(../images/icon/file.png) center center no-repeat;
+	background-size: 18px 20px;
+}
+.record .time {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	padding-bottom: 11px;
+}
+.record .time .start, .record .time .end {
+	position: relative;
+	flex: 6;
+	width: 100%;
+	height: 66px;
+}
+.record .time i {
+	position: absolute;
+	top: 16px;
+	width: 4px;
+	height: 14px;
+	background-color: #F73C43;
+}
+
+.record .time .txt-time {
+	padding-top: 16px;
+	padding-left: 13px;
+	padding-bottom: 12px;
+	font-size: 13px;
+	color: #E0E0E0;
+}
+
+.record .time .txt-date {
+	padding-left: 13px;
+	font-size: 14px;
+	color: #3B3B3B;
+}
+
+.record .time .end:before {
+	position: absolute;
+	content: "";
+	height: 84%;
+	width: 1px;
+	border-left: 1px solid #F5F5F5;
+}
+.record .adder input{
+	padding: 11px 0 11px 13px;
+	font-size: 14px;
+	color: #D5D5D5;
+}
+
+.person {
+	display: flex;
+	justify-content: space-between;
+}
+
+.person .left h4{
+	padding-top: 13px;
+	padding-left: 13px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.person .right {
+	display: flex;
+	justify-content: space-between;
+}
+.person .right .name{
+	display: inline-block;
+	padding-top: 13px;
+	padding-right: 17px;
+	font-size: 14px;
+	color: #D5D5D5;
+}
+.person .right .icon-add {
+	display: inline-block;
+	width: 20px;
+	height: 27px;
+	padding-top: 18px;
+	background: url(../images/icon/defaultAdd.png) center center no-repeat;
+	background-size: 13px 13px; 
+}
+
+.joinPerson {
+	display: flex;
+	justify-content: space-between;
+}
+.joinPerson .left {
+	flex: 1;
+}
+.joinPerson .left h4{
+
+	padding-top: 13px;
+	padding-left: 13px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.joinPerson .right {
+	flex: .6;
+	display: flex;
+	justify-content: space-between;
+}
+
+.joinPerson .right .name {
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 12px;
+}
+.joinPerson .right .name span {
+	font-size: 14px;
+}
+.joinPerson .right .number {
+	color: #D5D5D5;
+}
+.joinPerson .right .icon-add {
+	display: inline-block;
+	width: 20px;
+	height: 27px;
+	padding-top: 18px;
+	background: url(../images/icon/defaultAdd.png) center center no-repeat;
+	background-size: 13px 13px; 
+}
+
+.warn {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 5px;
+	padding-left: 10px;
+    padding-right: 10px;
+	background: #fff;
+}
+.warn > div {
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.warn .remind, .warn .repetition {
+	display: flex;
+	justify-content: space-between;
+}
+
+.warn .left h4{
+	padding-top: 16px;
+	padding-bottom: 12px;
+	padding-left: 13px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.warn .right {
+	display: flex;
+	justify-content: space-between;
+}
+.warn .right .name {
+	display: inline-block;
+	padding-top: 13px;
+	padding-right: 17px;
+	font-size: 14px;
+	color: #D5D5D5;
+}
+
+.warn .right .icon-add {
+	display: inline-block;
+	width: 20px;
+	height: 27px;
+	padding-top: 18px;
+	background: url(../images/icon/defaultAdd.png) center center no-repeat;
+	background-size: 13px 13px; 
+}
