@@ -32,7 +32,7 @@
 		</div>
 		<div class="list">
 			<h4>紧急程度</h4>
-			<input type="text" placeholder="请选择">
+			<input type="text" placeholder="请选择" readonly>
 			<i class="icon-bottom"></i>
 		</div>
 		<div class="list">
@@ -61,3 +61,18 @@
 	</div>
 </body>
 </html>
+<script>
+	var inputFocus = document.querySelectorAll('input');
+	var saveOrSublime = document.querySelector('.saveOrSublime')
+
+	for(var i=0;i<inputFocus.length;i++) {
+			inputFocus[i].onfocus = function() {
+				saveOrSublime.style.position = 'static';
+			}
+	}
+	for(var i=0;i<inputFocus.length;i++) {
+			inputFocus[i].onblur = function() {
+				saveOrSublime.style.position = 'fixed';
+			}
+	}
+</script>
