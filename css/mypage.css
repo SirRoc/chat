@@ -49,10 +49,10 @@ body {
 }
 .myMessage .contactPerson .person-right .name {
 	padding-top: 7px;
-    padding-bottom: 7px;
     font-size: 18px;
 }
 .myMessage .contactPerson .person-right .address {
+	padding-top: 4px;
 	font-size: 12px;
 }
 

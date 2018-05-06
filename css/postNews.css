@@ -74,7 +74,7 @@ header .icon-left {
 
 .newPost .list textarea:focus {
 	width: 82%;
-	box-shadow: 0 0 100px #00AEFF;
+	box-shadow: 0 0 10px #00AEFF;
 	background-color: #00AEFF;
 	color: #fff;
 }

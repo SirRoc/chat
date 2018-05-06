@@ -63,11 +63,19 @@
 </html>
 <script>
 	var inputFocus = document.querySelectorAll('input');
+	var itextareaFocus = document.querySelectorAll('textarea');
 	var saveOrSublime = document.querySelector('.saveOrSublime')
 
 	for(var i=0;i<inputFocus.length;i++) {
 			inputFocus[i].onfocus = function() {
 				saveOrSublime.style.position = 'static';
+				saveOrSublime.style.marginTop = '15%';
+			}
+	}
+	for(var i=0;i<itextareaFocus.length;i++) {
+			itextareaFocus[i].onfocus = function() {
+				saveOrSublime.style.position = 'static';
+				saveOrSublime.style.marginTop = '15%';
 			}
 	}
 	for(var i=0;i<inputFocus.length;i++) {
